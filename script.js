@@ -1,7 +1,7 @@
 
 const axios = require('axios');
 
-const url = 'https://i-po.000webhostapp.com/';
+const url = 'https://i-pon.000webhostapp.com/';
 const data = {
   key1: 'value1',
   key2: 'value2'
@@ -20,7 +20,7 @@ axios.post(url, data)
 
 const fetch = require('node-fetch'); // تأكد من تثبيت node-fetch إذا كنت تستخدم Node.js
 
-const url = 'https://i-po.000webhostapp.com/';
+const url = 'https://i-pon.000webhostapp.com/';
 const data = {
   key1: 'value1',
   key2: 'value2'
@@ -43,7 +43,7 @@ fetch(url, {
 
 
 // في ملف JavaScript على الفرونت إند
-axios.get('https://i-po.000webhostapp.com/')
+axios.get('https://i-pon.000webhostapp.com/')
   .then(function (response) {
     // تعامل مع النجاح
     console.log(response.data);
@@ -54,7 +54,7 @@ axios.get('https://i-po.000webhostapp.com/')
   });
 
 
-axios.post('https://i-po.000webhostapp.com/', {
+axios.post('https://i-pon.000webhostapp.com/', {
   key1: 'value1',
   key2: 'value2'
 })
@@ -68,7 +68,7 @@ axios.post('https://i-po.000webhostapp.com/', {
 });
 
 
-axios.put('https://i-po.000webhostapp.com/', {
+axios.put('https://i-pon.000webhostapp.com/', {
   key1: 'new value'
 })
 .then(function (response) {
@@ -81,7 +81,7 @@ axios.put('https://i-po.000webhostapp.com/', {
 });
 
 
-axios.delete('https://i-po.000webhostapp.com/')
+axios.delete('https://i-pon.000webhostapp.com/')
 .then(function (response) {
   // handle success
   console.log('Data deleted');
