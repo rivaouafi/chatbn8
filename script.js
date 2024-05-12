@@ -1,7 +1,7 @@
 
 const axios = require('axios');
 
-const url = 'https://i-po2.vercel.app';
+const url = 'https://ai-po.000webhost.com';
 const data = {
   key1: 'value1',
   key2: 'value2'
@@ -20,7 +20,7 @@ axios.post(url, data)
 
 const fetch = require('node-fetch'); // تأكد من تثبيت node-fetch إذا كنت تستخدم Node.js
 
-const url = 'https://i-po2.vercel.app';
+const url = 'https://ai-po.000webhost.com';
 const data = {
   key1: 'value1',
   key2: 'value2'
@@ -43,7 +43,7 @@ fetch(url, {
 
 
 // في ملف JavaScript على الفرونت إند
-axios.get('https://i-po2.vercel.app')
+axios.get('https://ai-po.000webhost.com')
   .then(function (response) {
     // تعامل مع النجاح
     console.log(response.data);
@@ -54,7 +54,7 @@ axios.get('https://i-po2.vercel.app')
   });
 
 
-axios.post('https://i-po2.vercel.app', {
+axios.post('https://ai-po.000webhost.com', {
   key1: 'value1',
   key2: 'value2'
 })
@@ -68,7 +68,7 @@ axios.post('https://i-po2.vercel.app', {
 });
 
 
-axios.put('https://i-po2.vercel.app', {
+axios.put('https://ai-po.000webhost.com', {
   key1: 'new value'
 })
 .then(function (response) {
@@ -81,7 +81,7 @@ axios.put('https://i-po2.vercel.app', {
 });
 
 
-axios.delete('https://i-po2.vercel.app')
+axios.delete('https://ai-po.000webhost.com')
 .then(function (response) {
   // handle success
   console.log('Data deleted');
